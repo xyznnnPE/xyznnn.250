@@ -194,7 +194,7 @@ signed fxyz(a,b,c,d,e,f,fw){
     static const fz1 = 'a * z1' + 'b * z1' + 'c * z1' + 'd * x1' + 'e * y1' + 'f * w5';
     static const fz2 = 'a * z2' + 'b * z2' + 'c * z2' + 'd * z2' + 'e * z2' + 'f * w6';
 }
-//five square equation
+//five degree equation
 unsigned gxyz(A,B,C,D,E,F,gw){
     static const gx1 = 'A * x1^5' + 'B * x1^4' + 'C * x1^3' + 'D * x1^2' + 'E * x1' + 'gw1';
     static const gx2 = 'A * x2^5' + 'B * x2^4' + 'C * x2^3' + 'D * x2^2' + 'E * x2' + 'gw2'; 
